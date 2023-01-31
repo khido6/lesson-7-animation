@@ -1,8 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-color: green;
 }
 .container{
-    background-color: rgb(24, 27, 24);
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    border: 10px solid black;
+    background-color: white;
+}
+img{
+    width: 50%;
+}
+
+.car{
+    position: absolute;
+}
+.one{
+    animation-name: car1;
+    animation-duration: 8s;
+    animation-delay: 2ms;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    transform: skewX(25deg);
 }
