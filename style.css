@@ -24,3 +24,12 @@ img{
     animation-iteration-count: infinite;
     transform: skewX(25deg);
 }
+.two{
+    animation-name: car2;
+    animation-duration: 8s;
+    animation-delay: 2ms;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
