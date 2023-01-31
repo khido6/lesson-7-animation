@@ -50,5 +50,22 @@ img{
     }
     
 }
-
+@keyframes car2{
+    0%{
+        transform: translateX(27%) translateY(110%);
+    }
+    25%{
+        transform: translateX(27%) translateY(290%);
+    }
+    50%{
+        transform: translateX(0) translateY(290%);
+    }
+    75%{
+        transform: translateX(0) translateY(200%);
+    }
+    100%{
+        transform: translateX(27%) translateY(110%);
+    }
+    
+}
 
