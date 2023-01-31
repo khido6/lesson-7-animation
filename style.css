@@ -32,4 +32,23 @@ img{
     animation-direction: normal;
     animation-iteration-count: infinite;
 }
+@keyframes car1{
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    25%{
+        transform: translateX(27%);
+    }
+    50%{
+        transform: translateX(27%) translateY(100%);
+    }
+    75%{
+        transform: translateX(0) translateY(100%);
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+    
+}
+
 
